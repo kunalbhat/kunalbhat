@@ -1,3 +1,79 @@
 body {
-  font-family: "Helvetica Neue";
-  color: red; }
+  background: #f5f7f8;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-size: 16px;
+  line-height: 1.7; }
+
+.wrapper {
+  overflow: hidden;
+  padding: 80px 40px 40px;
+  text-align: center; }
+  .wrapper .inner {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 1140px; }
+
+header {
+  padding: 40px; }
+  header h1 {
+    font-size: 36px;
+    line-height: 0.9; }
+  header em {
+    color: #dde0e0;
+    font-style: normal; }
+
+section {
+  overflow: hidden; }
+
+.color-stripe {
+  background: url("images/stripe_bg.png") repeat;
+  padding: 40px; }
+
+.sidecol {
+  float: left;
+  font-size: 24px;
+  margin-right: 40px;
+  width: 190px; }
+  .sidecol ul {
+    margin: 0;
+    padding: 0; }
+    .sidecol ul li {
+      list-style-type: none; }
+      .sidecol ul li a {
+        color: #777;
+        -webkit-transition: color 0.2s ease-in-out; }
+        .sidecol ul li a.active, .sidecol ul li a:hover {
+          color: white; }
+
+.main-content {
+  float: left;
+  width: 700px; }
+  .main-content h3 {
+    color: white;
+    font-size: 24px;
+    line-height: 1.5; }
+  .main-content p {
+    color: #777; }
+    .main-content p a {
+      color: #777;
+      font-weight: 600; }
+      .main-content p a:hover {
+        color: #efefef; }
+  .main-content img {
+    border: 1px solid #dde0e0; }

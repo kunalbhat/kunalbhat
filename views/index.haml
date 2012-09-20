@@ -1,17 +1,20 @@
-!!!
+!!! html5
 
 %html
 
 %head
   %title kunal bhat
   %link{:rel=>'stylesheet', :href=>'/style.css'}
+  %link{:rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600'}
+  %script{:src=>'http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js'}
 
 %body#homepage
 
   .wrapper
     %header.inner
-      %h1 kunal bhat<br />
-      %em hello world!
+      %h1
+        kunal bhat<br />
+        %em interaction design + front-end development
 
   .wrapper.color-stripe
     .inner
@@ -19,4 +22,29 @@
         %aside.sidecol
           %ul
             %li
-              %a{:href=>"info"}
+              %a{:href=>'info', :class=>'active'} info
+            %li
+              %a{:href=>'info'} work
+
+        .main-content
+          %h3 Hi, I'm Kunal. I am a designer, developer, and start-up enthusiast in Chicago &mdash; I enjoy rapid prototyping, concept development, and hacking things together (and apart).
+          %p I've formerly worked as a designer at <a href='#'>VSA Partners</a> on both the print and interactive side, and currently hold an associate position as an interaction designer at <a href='#'>gravitytank</a>, an innovation consultancy in Chicago, where I primarily help to shape and define future scenarios, products, and user experience across a range of devices.
+          %p My passions include physical and digital prototyping, web application development, logic and puzzle solving, information architecture, and design systems. I'm fully proficient with HTML5/CSS3, JavaScript, PHP, MySQL, AJAX, XML, and currently enjoying HAML, SCSS, soft tabs, and alphabetizing CSS element properties. I have dabbled in, and have an interest in Arduino, Processing, and game design.
+
+  .wrapper
+    .inner
+      .section#work-samples
+        %aside.sidecol
+          %ul
+            %li
+              %a{:href=>'#'} the seldoms
+          %p
+            %strong design<br />
+            Drew Waiss<br />
+            World HQ, Inc.
+
+          %p
+            %a{:href=>'http://www.theseldoms.org', :target=>'_blank'} seldoms.org
+
+        .main-content
+          %img{:src=>'images/seldoms.jpg'}
