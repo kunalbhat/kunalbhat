@@ -1,15 +1,11 @@
-$font_small:  16px;
-$font_medium: 24px;
-$font_large:  36px;
-
+// Global
 body {
-  background: #f5f7f8;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0;
-  margin-bottom: 40px;
-  padding: 0;
+  background: #fff;
+  color: #333;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,91 +14,50 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-a { text-decoration: none; }
-
-p {
-  font-size: 16px; 
-  line-height: 1.7;
+h1, h2 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
+h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+dd { color: #777; }
+
+cite { color: #aaa; }
+
+
+// Structure
 .wrapper {
   overflow: hidden;
-  padding: 80px 40px 40px;
-  text-align: center;
-
-  .inner {
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: left;
-    width: 1140px;
-  }
+  width: 700px;
 }
 
 header {
-  padding: 40px;
-
-  h1 {
-    font-size: 36px;
-    line-height: 0.9;
-  }
-
-  em {
-    color: #dde0e0;
-    font-style: normal;
-  }
+  margin-bottom: 100px;
 }
 
-section { overflow: hidden; }
-
-.color-stripe {
-  background: url('images/stripe_bg.png') repeat;
-  padding: 40px;
-}
-
-.sidecol {
-  float: left;
-  font-size: 24px;
-  margin-right: 40px;
-  width: 190px;
-
-  ul {
-    margin: 0;
-    padding: 0;
-
-    li {
-      list-style-type: none;
-
-      a {
-        color: #777;
-
-        -webkit-transition: color 0.2s ease-in-out;
-
-        &.active, &:hover { color: white; }
-      }
-    }
-  }
-}
-
-.main-content {
-  float: left;
-  width: 700px;
-
-  h3 {
-    color: white;
-    font-size: 24px;
-    line-height: 1.5;
-  }
-
-  p {
-    color: #777;
-
-    a { 
-      color: #777;
-      font-weight: 600; 
-
-      &:hover { color: #efefef; }
-    }
-  }
-
-  img { border: 1px solid #dde0e0; }
+article {
+  margin-bottom: 40px;
 }

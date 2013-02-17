@@ -1,50 +1,32 @@
-!!! html5
-
+!!! 5
 %html
+  %head
+    %title Kunal Bhat
+    %link{ rel: 'stylesheet', href: 'style.css' }
+    %link{ rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' }
+    <!--[if lt IE 9]>
+    %script{src: 'html5shiv.js'}
+    <![endif]-->
 
-%head
-  %title kunal bhat
-  %link{:rel=>'stylesheet', :href=>'/style.css'}
-  %link{:rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600'}
-  %script{:src=>'http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js'}
+  %body
+    .wrapper
+      %header
+        %h1 Kunal Bhat
+        %h2 Interaction designer
 
-%body#homepage
+      %article
+        %h3 Hi I'm Kunal. I am an interaction designer with a background in computer science, design and a focus on web application development.
+        %p
+          My passion is prototyping and creating proof-of-concept models and interactions. My process cycles between coding and visualizing
+          to quickly understand usability and validate design decisions.
 
-  .wrapper
-    %header.inner
-      %h1
-        kunal bhat<br />
-        %em interaction design + front-end development
+        %p
+          I currently lead design for <a href='http://dscout.com' target='_blank'>dScout</a>, an in-context research platform and start-up
+          incubated by gravitytank. <br />Prior to that, I worked as a designer on both the print and interactive side at VSA Partners.
 
-  .wrapper.color-stripe
-    .inner
-      %section.intro
-        %aside.sidecol
-          %ul
-            %li
-              %a{:href=>'info', :class=>'active'} info
-            %li
-              %a{:href=>'info'} work
+        %p I am agile, pragmatic and a minimalist.
 
-        .main-content
-          %h3 Hi, I'm Kunal. I am a designer, developer, and start-up enthusiast in Chicago &mdash; I enjoy rapid prototyping, concept development, and hacking things together (and apart).
-          %p I've formerly worked as a designer at <a href='#'>VSA Partners</a> on both the print and interactive side, and currently hold an associate position as an interaction designer at <a href='#'>gravitytank</a>, an innovation consultancy in Chicago, where I primarily help to shape and define future scenarios, products, and user experience across a range of devices.
-          %p My passions include physical and digital prototyping, web application development, logic and puzzle solving, information architecture, and design systems. I'm fully proficient with HTML5/CSS3, JavaScript, PHP, MySQL, AJAX, XML, and currently enjoying HAML, SCSS, soft tabs, and alphabetizing CSS element properties. I have dabbled in, and have an interest in Arduino, Processing, and game design.
-
-  .wrapper
-    .inner
-      .section#work-samples
-        %aside.sidecol
-          %ul
-            %li
-              %a{:href=>'#'} the seldoms
-          %p
-            %strong design<br />
-            Drew Waiss<br />
-            World HQ, Inc.
-
-          %p
-            %a{:href=>'http://www.theseldoms.org', :target=>'_blank'} seldoms.org
-
-        .main-content
-          %img{:src=>'images/seldoms.jpg'}
+      %footer
+        %cite
+          This site was joyfully written in HAML and SCSS using Vim &mdash; deployed as a Sinatra app and hosted for free by Heroku.
+          %br &copy; 2013 Kunal Bhat
