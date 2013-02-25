@@ -14,15 +14,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-size: 21px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-h3 {
+h3, h4 {
   font-size: 17px;
   font-weight: 600;
+}
+
+h3 {
   margin-bottom: 20px;
 }
 
@@ -43,7 +46,15 @@ dl, dt, dd {
   padding: 0;
 }
 
-dd { color: #777; }
+dt {
+  font-weight: bold;
+}
+
+dd {
+  color: #777;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
 
 cite { color: #aaa; }
 
@@ -55,7 +66,7 @@ cite { color: #aaa; }
 }
 
 header {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   overflow: hidden;
 }
 
@@ -64,12 +75,9 @@ article {
   box-sizing: border-box;
   float: left;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
 footer {
   clear: both;
 }
-
-// Content
-
-#about { display: none; }
