@@ -4,6 +4,7 @@
     %title Kunal Bhat
     %link{ rel: 'stylesheet', href: 'style.css' }
     %link{ rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' }
+    %script{ type: 'text/javascript', src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
     <!--[if lt IE 9]>
     %script{src: 'html5shiv.js'}
     <![endif]-->
@@ -14,6 +15,4 @@
         %h1 Kunal Bhat
         %h2 Interaction designer
 
-      %article
-        %h3 Uh-oh. This page cannot be found.
-        %p.error <a href='/' target='_self'>Back home</a>
+      = yield
