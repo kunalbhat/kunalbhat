@@ -1,7 +1,7 @@
 // Global
 body {
   background: #fff;
-  color: #333;
+  color: #222;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
@@ -68,10 +68,11 @@ cite { color: #aaa; }
 }
 
 header {
+  background: url('images/skull.png') no-repeat left center;
   margin-bottom: 90px;
+  padding-left: 40px;
   overflow: hidden;
 }
-
 
 article {
   box-sizing: border-box;
@@ -80,6 +81,4 @@ article {
   overflow: hidden;
 }
 
-footer {
-  clear: both;
-}
+footer { clear: both; }
