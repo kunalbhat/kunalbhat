@@ -1,6 +1,7 @@
-require 'sinatra'
 require 'haml'
 require 'sass'
+require 'sinatra'
+require 'thin'
 
 use Rack::Static, :urls => ['/images'], :root => 'public'
 
