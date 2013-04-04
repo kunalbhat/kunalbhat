@@ -1,3 +1,4 @@
+require 'coffee-script'
 require 'haml'
 require 'sass'
 require 'sinatra'
