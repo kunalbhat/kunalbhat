@@ -5,24 +5,17 @@
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' }
     %link{ rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }
     %link{ rel: 'stylesheet', href: '/style.css' }
-    %link{ rel: 'stylesheet', href: '/stylesheets/ss-social-regular.css' }
-    %link{ rel: 'stylesheet', href: '/stylesheets/ss-standard.css' }
-    %link{ rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' }
-    %script{ src: '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
+    %link{ rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' }
     <!--[if lt IE 9]>
     %script{src: '/scripts/html5shiv.js'}
     <![endif]-->
 
   %body
-    .wrapper
-      %header
-        %h1 Kunal Bhat
-        %h2 Interaction designer
+    %header
+      .container
+        %h1 kunal bhat <br /><em>interaction designer + front-end developer</em>
 
-      = yield
-
-    %script{src: '/scripts/ss-social.js'}
-    %script{src: '/scripts/ss-standard.js'}
+    = yield
 
     :javascript
       var _gaq = _gaq || [];
