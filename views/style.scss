@@ -72,7 +72,7 @@ table {
 // Global
 body {
   background: #fff;
-  color: #2C3E50;
+  color: #2c3e50;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
@@ -188,4 +188,45 @@ aside {
   height: 150px;
   margin-bottom: 30px;
   width: 150px;
+}
+
+// Mobile formatting
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .mobile-hide {
+    display: none;
+  }
+
+  body { width: 100%; }
+
+  .site-content, .container, article, aside, header {
+    margin: 0;
+    width: 100%;
+  }
+
+  header, article {
+    box-sizing: border-box;
+    padding: 30px;
+  }
+
+  header { margin: 0; }
+
+  h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  article, aside { float: none; }
+
+  aside {
+    background: #bdc3c7;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+
+    .profile-photo { margin: 0 auto 30px auto; }
+
+    a { color: #2c3e50; }
+  }
 }
