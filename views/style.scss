@@ -1,3 +1,12 @@
+// Background Color
+$color_background_paper: #ffffff;
+
+// Text Color
+$color_text_inverted:    #ffffff;
+$color_text_medium:      #7f8c8d;
+$color_text_dark:        #2c3e50;
+
+// Font
 @font-face {
 	font-family: 'icomoon';
 	src:url('fonts/icomoon.eot');
@@ -71,8 +80,8 @@ table {
 
 // Global
 body {
-  background: #fff;
-  color: #2c3e50;
+  background: $color_background_paper;
+  color: $color_text_dark;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
@@ -80,18 +89,18 @@ body {
 
 //Typography
 h1 {
-  color: #2c3e50;
+  color: $color_text_dark;
   font-size: 36px;
   font-weight: 300;
   line-height: 1;
 
   -webkit-font-smoothing: subpixel-antialiased;
 
-  em { color: #7F8C8D; }
+  em { color: $color_text_medium; }
 }
 
 h3 {
-  color: #2c3e50;
+  color: $color_text_dark;
   font-size: 25px;
   font-weight: 300;
   line-height: 1.3;
@@ -108,14 +117,14 @@ h6 { font-weight: 600; }
 p { margin-bottom: 16px; }
 
 a {
-  color: #7f8c8d;
+  color: $color_text_medium;
   font-weight: 600;
 
   -webkit-transition: color 0.2s ease-in-out;
      -moz-transition: color 0.2s ease-in-out;
           transition: color 0.2s ease-in-out;
 
-  &:hover { color: #2c3e50; }
+  &:hover { color: $color_text_dark; }
 }
 
 // Type - emphasis
@@ -170,7 +179,7 @@ article {
   float: left;
   width: 700px;
 
-  p { color: #7f8c8d; }
+  p { color: $color_text_medium; }
 }
 
 aside {
@@ -227,6 +236,6 @@ and (max-device-width : 480px) {
 
     .profile-photo { margin: 0 auto 30px auto; }
 
-    a { color: #2c3e50; }
+    a { color: $color_text_dark; }
   }
 }
