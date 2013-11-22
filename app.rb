@@ -1,5 +1,5 @@
-require 'bundler'
-Bundler.require
+Bundler.require :web
+Bundler.require :development if development?
 
 get '/style.css' do
   scss :style
@@ -7,10 +7,6 @@ end
 
 get '/' do
   haml :index
-end
-
-get '/' do
-  haml :picks
 end
 
 not_found do
