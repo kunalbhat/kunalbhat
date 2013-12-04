@@ -1,8 +1,8 @@
 Bundler.require :web
 Bundler.require :development if development?
 
-get '/style.css' do
-  scss :style
+get '/stylesheet.css' do
+  scss :stylesheet
 end
 
 get '/' do
