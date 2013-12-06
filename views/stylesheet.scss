@@ -14,7 +14,8 @@ a { color: inherit; }
 h1 {
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.2;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -22,14 +23,18 @@ h2 {
   font-weight: 300;
 }
 
-p {
-  font-family: "PT Serif", serif;
+h5 {
+  color: #bdc3c7;
+  margin: 1em 0;
+}
+
+p, figcaption {
   font-size: 17px;
   margin-bottom: 1.8625em;
 }
 
-div {
-  margin: 0 auto;
+.site-wrapper {
+  margin: 0 auto 10em auto;
   max-width: 690px;
   width: 90%;
 }
@@ -42,10 +47,55 @@ nav {
   }
 }
 
-header { margin-bottom: 3em; }
+header {
+  margin-bottom: 3em;
+}
 
 footer {
   margin-top: 3em;
 
   p { color: #9c9c9c; }
+}
+
+pre {
+  background: #ecf0f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+hr {
+  border-bottom: 1px solid #ecf0f1;
+  border-top: none;
+  height: 1px;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+figure {
+  border-bottom: 1px solid #ecf0f1;
+  margin: 0 0 1em 0;
+  padding: 0 0 1em 0;
+}
+
+img.fluid {
+  height: auto;
+  width: 100%;
+}
+
+blockquote {
+  color: #bdc3c7;
+  display: block;
+  font-size: 13px;
+  padding-left: 2em;
+  margin-left: 2em;
+}
+
+#blog header {
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
 }

@@ -1,0 +1,69 @@
+%section{ role: 'main', id: 'blog' }
+  %article{ role: 'article' }
+    %header
+      %h1 Getting larger pictures of an Rdio user
+      %h5 Dec 6, 2013
+
+    %figure
+      %img{ src: '/images/blog/edwin_bio.png' }
+
+    %p
+      Those pictures of your friends on Rdio are pretty small, huh? Eyes
+      straining to make out what Edwin is doing in the picture? Mine too!
+
+    %p
+      Push your creep-factor to <em>500</em>. I did, and dug in to <a href='http://www.rdio.com/developers/docs/web-service/types/user/ref-web-service-type-user' target='_blank'>Rdio's Developer
+      documentation</a> to uncover all available sizes for user avatars.
+
+    %pre
+      %span {&#x000A;&nbsp;&nbsp;"icon": "http://rdio-a.cdn3.rdio.com/user/4/d/f/000000000001bfd4/4/square-100.jpg",&#x000A;&nbsp;&nbsp;"icon250": "http://rdio-a.cdn3.rdio.com/user/4/d/f/000000000001bfd4/4/square-250.jpg",&#x000A;&nbsp;&nbsp;"icon500": "http://rdio-a.cdn3.rdio.com/user/4/d/f/000000000001bfd4/4/square-500.jpg",&#x000A;}
+
+    %p
+      What's all this nerdy-nerd stuff you ask? Don't worry about that. What we're
+      interested in is the <em>proof</em> that larger versions of the photo DO exist!
+
+    %hr
+
+    %h4 So how do I do it?
+
+    %p
+      Well, you can uncover your friend's avatar's URL with a few steps, and
+      Developer Mode* turned on in your browser.
+
+      %blockquote
+        * You can enable Developer Mode in your browser by identifying what
+        browser you are using, and then 'googling': "How do I enable Developer
+        Mode in <span>[INSERT YOUR BROWSER NAME HERE]</span>."
+
+    %p
+      %figure
+        %img{ src: '/images/blog/inspector.png' }
+        %figcaption Right-click on the picture, and inspect it.
+
+    %p
+      %figure
+        %img{ src: '/images/blog/source.png', class: 'fluid' }
+        %figcaption Hey, look. There's the the image source!
+
+    %p
+      %figure
+        %img{ src: '/images/blog/copysource.png' }
+        %figcaption Copy it.
+
+    %p
+      %figure
+        %img{ src: '/images/blog/browser.png', class: 'fluid' }
+        %figcaption
+          Paste it into your browser's address bar. A-ha! Now you have isolated
+          the image source. Remember, what the documentation said &ndash; how there
+          exist three versions? Well, let's get that 500 pixel one so we can really
+          see what Edwin is doing...
+
+    %p
+      %figure
+        %img{ src: '/images/blog/browser500.png', class: 'fluid' }
+        %figcaption
+          Simply change the <em>100</em> to a <em>500</em> in the address bar, and look at that!
+          &ndash; you've got a huge pic of Edwin. That's great.
+
+    %a{ href: '/blog' } Back to blog
