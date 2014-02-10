@@ -40,6 +40,8 @@ a {
     position: relative;
     top: 1px;
   }
+
+  &:hover { text-decoration: none; }
 }
 
 h1 {
@@ -142,13 +144,47 @@ blockquote {
   padding-bottom: 2em;
 }
 
+.mobile { display: none; }
+
+.github {
+  color: #fff;
+
+  &:hover { text-decoration: none; }
+}
+
 @media only screen
 and (min-width : 320px)
 and (max-width : 480px) {
-  h1 { font-size: 36px; }
+
+  body {
+    background: #111;
+    color: #fff;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 21px;
+    width: 100%;
+  }
 
   .col {
     float: none;
     width: 100%;
   }
+
+  .logo {
+    color: #fff;
+    font-weight: 400;
+
+    &:before {
+      color: #fff;
+      display: block;
+      font-size: 24px;
+      padding: 20px;
+    }
+  }
+
+  aside, article { display: none; }
+
+  .mobile { display: block; }
 }
