@@ -10,6 +10,7 @@
     %link{ rel: 'stylesheet', href: '/stylesheet.css' }
     %link{ rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' }
     %link{ rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=PT+Serif' }
+    %script{ src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' }
 
   %body
     .site-container
@@ -27,3 +28,7 @@
       })();
 
       console.log('Welcome to space.');
+
+      $('document').ready(function() {
+        $('.logo').removeClass('hide');
+      });

@@ -86,8 +86,19 @@ a {
   border-radius: 50%;
   height: 150px;
   margin: 0 auto;
+  opacity: 1;
   overflow: hidden;
   width: 150px;
+
+  -webkit-transition: opacity 2s ease-in;
+     -moz-transition: opacity 2s ease-in;
+      -ms-transition: opacity 2s ease-in;
+       -o-transition: opacity 2s ease-in;
+          transition: opacity 2s ease-in;
+
+  &.hide {
+    opacity: 0;
+  }
 
   img {
     position: relative;
@@ -149,14 +160,17 @@ a {
 @media (max-width: 600px) {
   body {
     padding: 30px;
-    text-align: left;
   }
 
   .site-container { padding: 0; }
 
+  .logo {
+    margin-bottom: 30px;
+  }
+
   h1 {
     border-bottom: 1px solid #000;
-    font-size: 36px;
+    font-size: 26px;
     margin-top: 0;
     padding-bottom: 20px;
   }
