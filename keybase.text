@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/kunalbhat
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kunalbhat.com
+  * I am kunalbhat (https://keybase.io/kunalbhat) on keybase.
+  * I have a public key with fingerprint 51FC DC86 6A5D 2476 A512  68B0 79A9 A5AB F60B D06E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "0101f2e8b3cc6d9ddb9571e17228928f3b4f5905caab63a26aa40fa0c275d1bc23130a",
+            "fingerprint": "51fcdc866a5d2476a51268b079a9a5abf60bd06e",
+            "host": "keybase.io",
+            "key_id": "79a9a5abf60bd06e",
+            "kid": "0101f2e8b3cc6d9ddb9571e17228928f3b4f5905caab63a26aa40fa0c275d1bc23130a",
+            "uid": "d3b5a2202879a12bbb44610a0f982819",
+            "username": "kunalbhat"
+        },
+        "service": {
+            "hostname": "kunalbhat.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1441988273,
+    "expire_in": 157680000,
+    "prev": "c74ccbb1acb283a17d34f1c483016b3f59508ba89a1a829958988a9288f97471",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtkltIVEEYx1fNrHUrLbrRzQ5pEcvpzJzbnIUegujGZmRWiMUyM2fOenI9Z909
+mrIV9FDRQxcKiZ5Kim6YlVBUL/VQSPlQRDdCJCGkKCW6aeWlOWIPRY/Nywzz/b7/
+933/maOTcgLBrA0n8vatyLv/MavjHQls/jR8LSMQ12wUIhmBJmzmeP7JwTVMiAjV
+rJHgNBNtt8hxTSbuSBeNMWGhnqXStutwShKRCJCwO+zzfjZLmCztxapt048CCViQ
+ISJTqpmGaRJD1QEDOoTIgMiSiWKphqRSjIkmY6hhrEgWlijUVRMQCmUgS5gXtGwn
+zlLJlO23KKjAoiZFmoZVEyo63wDUEJF0AxtYxcTSJGJKGuOJVW7a+2MYYbTT2Gh7
+/+D/c991o3KmTFQMoQQRrwggIURRNCBhyTIQRMDwwTRL/Ta+zsEJUoU931V+XW9T
+5jvrj/I3IlK3hmcnU67nUjfBQ1Wel4z4mV5j0kd3MhIbE4kR2zG5kaMPeHLsBQFH
+qWf7skBRgIEQ1OWwwBqSdorFbJ9QdQ1JfPl1WD3XpLpCKSEAUwKRjIFuyooFqIJk
+CWhE5taoEiIY8WExgoahIi6LuXHIMnRFB4I/V63jChFeycNxLpm24w726lJM2H0w
+a+64QFYwMD432/+igeDEgt//tuF93kjpbPr5YUtrT/TSh+W3c36Ur26e+qkrs+fW
+oYJpu5pnFI9YHXerD64sGrq8cPHSm4e39FTsuEJ/rrlBnsTvTOybXNLdu39BZbCh
+veWQXCjm5qHEov5OtStnVb6y1nqde7VWzx+OXugqOHu+eVZZqHwwPOGFWH4geCpT
+uG79xej2ofjhr8+i7Q0d/ZUDbW8GFyyUqgf2HuuWp37LjJTNyU4z/UjEeAeDr1LX
+Q03PTz85833St+3DTfd6W/a+iH65Vt5mKfM633c1Xmrd2rQJb6wNlSz6XlX8tlas
+mDP/pDsSiEwPL3t5vL+4uG3J7fyZR6aEukvF6NOrDx4N9mU/3qaFDijnfgE=
+=nSHx
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kunalbhat
