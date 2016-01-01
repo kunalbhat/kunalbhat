@@ -103,8 +103,48 @@ a:hover { color: #888; }
   100% { left: -20%; z-index: -1; }
 }
 
+@-moz-keyframes orbit {
+  0% { left: -20%; z-index: 0; }
+  33% { left: 115%; z-index: 0; }
+  67% { z-index: -1; }
+  100% { left: -20%; z-index: -1; }
+}
+
+@-ms-keyframes orbit {
+  0% { left: -20%; z-index: 0; }
+  33% { left: 115%; z-index: 0; }
+  67% { z-index: -1; }
+  100% { left: -20%; z-index: -1; }
+}
+
+@keyframes orbit {
+  0% { left: -20%; z-index: 0; }
+  33% { left: 115%; z-index: 0; }
+  67% { z-index: -1; }
+  100% { left: -20%; z-index: -1; }
+}
+
 @-webkit-keyframes bounce {
   0% { top: 0; }
   50% { top: -10px; }
   100% { top: 10px; }
 }
+
+@-moz-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -10px; }
+  100% { top: 10px; }
+}
+
+@-ms-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -10px; }
+  100% { top: 10px; }
+}
+
+@keyframes bounce {
+  0% { top: 0; }
+  50% { top: -10px; }
+  100% { top: 10px; }
+}
+
