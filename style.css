@@ -3,14 +3,14 @@ html, body {
 }
 
 body {
-  color: #3e3c42;
-  background-color: #ecf0f1;
+  background-color: #f9f9f9;
+  color: #212121;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   padding: 2rem;
 }
 
 h1, h2 {
-  font-size: 24px;
+  font-size: 2.5em;
   margin: 0;
 }
 
@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.8;
 }
 
@@ -34,24 +34,76 @@ a {
 }
 
 a:hover {
-  color: #999;
-}
-
-.logo {
-  background-color: #333;
-  border-radius: 50%;
-  display: block;
-  height: 96px;
-  margin: 0 0 60px 0;
-  width: 96px;
+  color: #888;
 }
 
 .site-container {
+  margin: 0 auto;
   max-width: 720px;
   width: 100%;
 }
 
-.site-header {
-  margin-bottom: 60px;
+.site-content {
+  margin: 0 auto;
 }
 
+.site-header {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.logo {
+  height: 120px;
+  margin: 0 0 40px 0;
+  position: relative;
+  top: -10px;
+  width: 120px;
+}
+
+.planet {
+  background: url(space.jpg) no-repeat center;
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  position: relative;
+  top: -10px;
+  width: 100%;
+  z-index: 0;
+
+  -webkit-animation: bounce 2.5s ease-in-out alternate infinite;
+     -moz-animation: bounce 2.5s ease-in-out alternate infinite;
+      -ms-animation: bounce 2.5s ease-in-out alternate infinite;
+          animation: bounce 2.5s ease-in-out alternate infinite;
+}
+
+.moon {
+  background-color: #454545;
+  border-radius: 50%;
+  box-shadow: 2px 3px 0 0 rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 16px;
+  left: -20%;
+  position: absolute;
+  top: calc(50% - 8px);
+  width: 16px;
+  z-index: 0;
+
+  -webkit-animation: orbit 9s ease-in-out infinite;
+     -moz-animation: orbit 9s ease-in-out infinite;
+      -ms-animation: orbit 9s ease-in-out infinite;
+          animation: orbit 9s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes orbit {
+  0% { left: -20%; z-index: 0; }
+  33% { left: 115%; z-index: 0; }
+  67% { z-index: -1; }
+  100% { left: -20%; z-index: -1; }
+}
+
+@-webkit-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -10px; }
+  100% { top: 10px; }
+}
