@@ -94,7 +94,6 @@ a:hover {
           animation: orbit 9s ease-in-out infinite;
 }
 
-
 @-webkit-keyframes orbit {
   0% { left: -20%; z-index: 0; }
   33% { left: 115%; z-index: 0; }
