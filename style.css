@@ -52,6 +52,10 @@ a:hover {
   margin-top: 20px;
 }
 
+.site-footer { margin-top: 40px; }
+
+.copyright { color: #bfbfbf; }
+
 .logo {
   height: 120px;
   margin: 0 0 40px 0;
