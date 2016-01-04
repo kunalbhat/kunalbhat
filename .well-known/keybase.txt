@@ -1,4 +1,45 @@
-elds the signature:
+==================================================================
+https://keybase.io/kunalbhat
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kunalbhat.com
+  * I am kunalbhat (https://keybase.io/kunalbhat) on keybase.
+  * I have a public key with fingerprint 51FC DC86 6A5D 2476 A512  68B0 79A9 A5AB F60B D06E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "0101f2e8b3cc6d9ddb9571e17228928f3b4f5905caab63a26aa40fa0c275d1bc23130a",
+            "fingerprint": "51fcdc866a5d2476a51268b079a9a5abf60bd06e",
+            "host": "keybase.io",
+            "key_id": "79a9a5abf60bd06e",
+            "kid": "0101f2e8b3cc6d9ddb9571e17228928f3b4f5905caab63a26aa40fa0c275d1bc23130a",
+            "uid": "d3b5a2202879a12bbb44610a0f982819",
+            "username": "kunalbhat"
+        },
+        "service": {
+            "hostname": "kunalbhat.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1451946201,
+    "expire_in": 157680000,
+    "prev": "d2cb7a7915bdc8c38fd2ee493387ec692442ed4a6f15daef24d176a5a0963643",
+    "seqno": 30,
+    "tag": "signature"
+}
+
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 Comment: GPGTools - https://gpgtools.org
