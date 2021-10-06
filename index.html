@@ -1,24 +1,36 @@
 <html>
 <head>
-  <title>Kunal Bhat</title>
+  <title>Kunal Bhat — Early-stage Technologist</title>
   <meta name="description" content="Futurist. Minimalist. Scientist.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:url" content="https://kunalbhat.com/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Kunal Bhat — Early-stage Technologist">
+	<meta property="og:description" content="Technologist helping small, early-stage teams move faster.">
+	<meta property="og:site_name" content="Kunal Bhat">
+  <link rel="canonical" href="https://kunalbhat.com/">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet"> 
   <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@500;600&display=swap');
+    /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@500;600&display=swap');*/
+
+    html {
+      font-size: 100%;
+    }
 
     body {
       color: #050038;
-      font-family: 'Source Sans Pro', Arial, sans-serif;
-      font-size: 21px;
+      font-family: 'Work Sans', Arial, sans-serif;
+      font-size: 1.125rem;
       line-height: 1.75;
       padding: 3rem;
-      max-width: 48rem;
     }
     
     a {
-      border-bottom: 2px solid  #4262ff;
       color:  #4262ff;
       text-decoration: none;
       transition: 0.3s;
@@ -26,22 +38,21 @@
 
     a:hover {
       color: #ffbfbf;
-      border-bottom-color: #ffbfbf;
     }
 
     h1, h2 {
       color: #4262ff;
-      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      line-height: 1.3;
     }
 
     h1 {
-      font-size: 4rem;
       margin: 0;
       padding: 0;
     }
 
     h2 {
-      font-size: 2rem;
+      font-weight: 400;
       margin-top: 0;
       padding-top: 0;
     }
@@ -49,6 +60,7 @@
     h3 {
       color: #4262ff;
       font-size: 1.2rem;
+      margin-bottom: 0;
       padding-bottom: 0;
     }
 
@@ -56,12 +68,21 @@
       padding-bottom: 0.5rem;
     }
 
-    .social-link a:hover {
+    .social-links a:after {
+      content: '/';
+      padding: 0 0.5rem;
+    }
+
+    .social-links a:last-child::after {
+      display: none;
+    }
+
+    .social-links a:hover {
       padding-bottom: 0.6rem;
     }
 
-    .separator {
-      padding: 0 1rem;
+    main {
+      max-width: 38rem;
     }
   </style>
 </head>
@@ -73,7 +94,7 @@
   <main>
     <p>I am a creative technologist in Chicago who helps teams do their best work. I bring a wealth of product development experience from previous roles in product design, product management and frontend web development.</p>
     
-    <h3>The Highlights</h3>
+    <h3>Highlights</h3>
     <ul>
       <li>Currently an engineer at <a href="https://www.galactic.io" target="_blank">Galactic</a></li>
       <li>5 years of product management experience via <a href="https://www.paypal.com">PayPal</a></li>
@@ -82,7 +103,9 @@
     </ul>
 
     <nav class="social-links">
-      <a href="https://www.linkedin.com/in/kunal-s-bhat/" target="_blank">LinkedIn</a> <span class="separator">/</span> <a href="https://github.com/kunalbhat" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/kunal-s-bhat/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/kunalbhat" target="_blank">GitHub</a>
+      <a href="https://etherscan.io/address/0x8aa4f8fb1ea55e8548c788d7edc075e68ead6482" target="_blank">kunalbhat.eth</a>
     </nav>  
   </main>
 </body>
