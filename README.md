@@ -1,6 +1,6 @@
 ## Hello!
 
-### I am a software engineer with ~20 years of building user experiences.
+### I am a software engineer with ~15 years of building user experiences.
 
 My goal is to use my combined experience from roles in product design, product management, and software engineering to help teams do their best work.
 
