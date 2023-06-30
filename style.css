@@ -12,12 +12,8 @@ body {
   height: 100vh;
   justify-content: center;
   margin: 0 auto;
-  max-width: 54rem;
+  max-width: 58rem;
   padding: 0 2rem;
-}
-
-main {
-  max-width: 48rem;
 }
 
 h1 {
@@ -56,23 +52,6 @@ ul li {
 
 ul li:not(:last-child) {
   margin-right: 1.5rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #131313;
-    /* color: #b9ae9a; */
-    color: #d0c6b9;
-  }
-
-  a,
-  strong {
-    color: #e8d33f;
-  }
-
-  a:hover {
-    color: #fdc500;
-  }
 }
 
 @media (max-width: 860px) {
