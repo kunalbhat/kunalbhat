@@ -1,5 +1,3 @@
-## Hello! I am a product leader with ~15 years of building user experiences.
+## Hello! I'm a UX designer and product lead in Chicago.
 
-Hi, I'm Kunal, a product leader in Chicago who brings design perspective and technical acumen via previous experiences as a product designer and design engineer. I've built and shipped early stage product in startups through to enterprise software for global customers.
-
-I specialize in payments via previous experience at PayPal/Braintree, contextual commerce at Modest, and most recently, crypto at Galactic.
+I combine 16 years of building and delivering user experiences in roles as a designer, product manager, and software engineer. I'm a systems thinker, technically oriented, and highly comfortable in new and ambiguous problem spaces.
